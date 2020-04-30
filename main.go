@@ -174,6 +174,7 @@ func main() {
 	pres.DeclLinks = *declLinks
 	pres.SrcMode = false
 	pres.HTMLMode = false
+	pres.AllMode = true
 	pres.URLForSrcPos = srcPosLinkFunc
 
 	if *altPkgTemplate != "" {
